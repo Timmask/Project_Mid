@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "443616157448",
+    "firebase_url": "https://qtube-61b27-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "qtube-61b27",
+    "storage_bucket": "qtube-61b27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443616157448:android:34f060ab82445809c296bd",
+        "android_client_info": {
+          "package_name": "com.example.project_mid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443616157448-vng8hihl25rkf6sr3gb2f7l4sgmhf2mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Brj0_ocHr5wCCl4fFO9Bcm5TxLTd64o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443616157448-vng8hihl25rkf6sr3gb2f7l4sgmhf2mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+  "apply_plugin": "com.google.gms.google-services"
+}

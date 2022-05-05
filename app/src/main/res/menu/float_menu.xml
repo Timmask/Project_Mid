@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:outlineAmbientShadowColor="@android:color/transparent"
+    android:outlineSpotShadowColor="@android:color/transparent"
+    >
+    <item android:title="Общие сведения">
+        <menu>
+            <item android:id="@+id/history"
+                  android:title="@string/history"></item>
+            <item android:title="@string/settings"></item>
+            <item android:title="@string/feedback"></item>
+            <item android:id="@+id/liked"
+                  android:title="@string/like"></item>
+
+            <item
+                android:id="@+id/app_bar_switch"
+                android:title="@string/theme"
+                app:actionLayout="@layout/switch_item"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+    <item android:title="@string/account">
+        <menu>
+
+            <item
+                android:id="@+id/singin"
+                android:title="Вход"
+                android:visible="true"></item>
+            <item
+                android:id="@+id/signup"
+                android:title="Регистрация"
+                android:visible="true"></item>
+            <item
+                android:id="@+id/signout"
+                android:title="Выход"
+                android:visible="false"></item>
+        </menu>
+    </item>
+</menu>
